@@ -1,0 +1,26 @@
+.sidebar_wrapper {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+}
+.sidebar {
+  background-color: rgba(47, 53, 66, 0.9);
+  color: #fff;
+  border-right: 0px solid red !important;
+  flex: 1;
+}
+.submenu a:hover {
+  background: rgba(47, 53, 66, 0.9);
+}
+
+.submenu .item a {
+  background-color: rgba(47, 53, 66, 0.9);
+  color: #fff;
+}
+.submenu .item a:hover {
+  color: #fff;
+}
+.item a:hover {
+  background-color: rgba(47, 53, 66, 0.9);
+  color: fff;
+}
